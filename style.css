@@ -8,7 +8,7 @@ body {
 /* header section */
 
 .banner {
-    background-image: url('Rectangle\ 15.png'), url('resources/Banner\ Image.png');
+    background-image: url('d-reso/Rectangle\ 15.png'), url('resources/Banner\ Image.png');
     background-repeat: no-repeat;
     background-size: cover;
     width: 1320px;
@@ -23,8 +23,8 @@ body {
 
 .banner-text {
     display: inline-block;
-    align-items: center;
-    justify-content: center;
+    /* align-items: center;     */
+    /* justify-content: center; */
 }
 
 .banner-p {
@@ -100,9 +100,72 @@ body {
     width: 802.9px;
     height: 500px;
     flex-shrink: 0;
-    fill: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    /* fill: url(<path-to-image>), lightgray 50% / cover no-repeat; */
     margin-top: 48px;
     margin-left: 399px;
     margin-bottom: 0;
 }
 
+/* second container section */
+
+.second-container {
+    display: flex;
+    justify-content: left;
+    background-image: url('d-reso/Vector.png'), url('d-reso/Vector.png'), url('resources/Vectorrr.png');
+    width: 1320px;
+    height: 600px;
+    flex-shrink: 0;
+    margin-top: 120px;
+    margin-left: 140px;
+    margin-right: 140px;
+}
+
+.banner2-text {
+    margin-left: 126px;
+    text-align: left;
+}
+
+.welcometo-p {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+    width: 642px;
+    margin-top: 126px;
+    margin-bottom: 0;
+}
+
+.dolor-shit {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    width: 697px;
+    margin-top: 24px;
+    margin-bottom: 0;
+}
+
+.join-now {
+    display: block;
+    color: #FFF;
+    text-align: left;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-top: 48px;
+    margin-left: 32px;
+}
+
+.banner2-icon {
+    margin-top: 68px;
+    margin-right: 138px;
+}
