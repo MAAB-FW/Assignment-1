@@ -1,8 +1,7 @@
 body {
     font-family: 'Merriweather', serif;
     font-family: 'Inter', sans-serif;
-    font-family: 'Merriweather', serif;
-    margin: 50px 140px 120px 140px;
+    /* margin: 50px 140px 120px 140px; */
 
 }
 
@@ -18,7 +17,7 @@ body {
     flex-shrink: 0;
     align-items: center;
     border-radius: 16px;
-    /* margin: 50px 140px 120px 140px; */
+    margin: 50px 140px 0 140px;
     border-radius: 16px;
 }
 
@@ -54,3 +53,56 @@ body {
     margin-left: 344px;
     margin-top: 16px;
 }
+
+
+/* main section */
+
+/* first container */
+
+.first-container p {
+    display: flex;
+    margin-left: 608px;
+}
+
+.off65 {
+    color: #F00;
+    text-align: center;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 120px;
+}
+
+.our-holiday {
+    color: #F00;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 48px;
+    margin-bottom: 16px;
+}
+
+.all-cate {
+    color: #070211;
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 0;
+}
+
+.img-new-year {
+    justify-content: center;
+    width: 802.9px;
+    height: 500px;
+    flex-shrink: 0;
+    fill: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    margin-top: 48px;
+    margin-left: 399px;
+    margin-bottom: 0;
+}
+
