@@ -331,6 +331,106 @@ body {
     margin-top: 43px;
 }
 
+/* fifth container section */
+
+.fifth-container {}
+
+.fifth-text {
+    margin-top: 120px;
+    /* justify-content: space-between; */
+}
+
+.fifth-text1 {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 668px;
+    margin-bottom: 0;
+}
+
+.fifth-text2 {
+    color: #F00;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    display: inline-flex;
+    margin-left: 462px;
+    margin-top: 16px;
+    margin-bottom: 0;
+
+}
+
+.sale50 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.fifth-text3 {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    width: 1068px;
+    margin-left: 266px;
+    margin-top: 28px;
+}
+
+.discount {
+    margin-left: 140px;
+    display: inline-flex;
+    margin-bottom: 0;
+    padding-bottom: 0px;
+    background-image: url('resources/Rectangle\ 2.png');
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: 100%;
+}
+
+.picture1 {
+    width: 663px;
+    height: 797px;
+    margin-bottom: 0px;
+    /* position: static; */
+
+}
+
+.picture2 {
+    width: 206.841px;
+    height: 206.841px;
+    flex-shrink: 0;
+    fill: #F00;
+    position: relative;
+    margin-top: 60px;
+    
+}
+
+.picture3 {
+    width: 429px;
+    height: 433px;
+    flex-shrink: 0;
+    border-radius: 16px 16px 0px 0px;
+    background: url(<path-to-image>), lightgray -59.98px 0px / 151.553% 100% no-repeat;
+    
+}
+
+.red-bg{
+    margin-top: 0;
+    margin-left: 140px;
+}
+
 
 /* sixth container section  */
 
@@ -386,6 +486,7 @@ body {
 
 .pro-img4-6 {
     display: inline-flex;
+    /* position: static; */
 }
 
 .prim1 {
@@ -411,7 +512,9 @@ body {
     margin-right: 24px;
 }
 
-/* .prim6 {} */
+.prim6 {
+    margin-top: 0;
+}
 
 
 
@@ -495,6 +598,7 @@ body {
     font-weight: 600;
     line-height: normal;
     text-transform: capitalize;
+    cursor: pointer;
 }
 
 .subscribe-sec>input::placeholder {
