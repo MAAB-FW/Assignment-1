@@ -478,16 +478,16 @@ body {
 
 .product-img {
     margin-top: 48px;
+    display: block;
 
 }
 
 .pro-img1-3 {
-    display: inline-flex;
+    display: flex;
 }
 
 .pro-img4-6 {
-    display: inline-flexbox;
-    /* position: static; */
+    display: flex;
 }
 
 .prim1 {
