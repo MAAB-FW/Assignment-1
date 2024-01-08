@@ -240,7 +240,6 @@ body {
     display: flex;
     margin-left: 140px;
 
-
 }
 
 .fc-column1 {
@@ -288,16 +287,15 @@ body {
 }
 
 .fccol2-image {
-    margin-top: 15px;
     margin-bottom: 0;
     width: 364.844px;
     height: 364.844px;
     flex-shrink: 0;
-    border-radius: 364.844px;
+    border-radius: 463px;
     background: url(<path-to-image>), lightgray -91.279px 0px / 150.038% 100% no-repeat;
     background-color: #FFF;
     border: 15px solid #F00;
-    padding: 20px;
+    padding: 49px;
 }
 
 .fc-column3 {
