@@ -170,6 +170,65 @@ body {
     margin-right: 138px;
 }
 
+/* third container section  */
+.third-container {
+    background-image: url('d-reso/Vector\ pdt.png');
+    background-repeat: no-repeat;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    margin-left: 126px;
+    width: 1320px;
+    height: 482px;
+    flex-shrink: 0;
+    /* fill: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%); */
+}
+
+.pdt-join {
+    display: inline-block;
+    margin-top: 100px;
+}
+
+.PDT,
+.btn-join-now2 {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.PDT {
+    margin-left: 385px;
+    margin-right: 380px;
+    color: #070211;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+    margin-bottom: 0px;
+}
+
+.red {
+    color: #F00;
+    text-align: center;
+
+}
+
+.btn-join-now2 {
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-left: 576px;
+    margin-top: 48px;
+    padding: 16px 32px;
+    gap: 10px;
+    border-radius: 8px;
+    background: #F00;
+    border: 0;
+}
+
 
 
 
