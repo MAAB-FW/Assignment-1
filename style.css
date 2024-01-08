@@ -8,7 +8,7 @@ body {
 /* header section */
 
 .banner {
-    background-image: url('d-reso/Rectangle\ 15.png'), url('resources/Banner\ Image.png');
+    background-image: url('d-reso/Rectangle 15.png'), url('resources/Banner Image.png');
     background-repeat: no-repeat;
     background-size: cover;
     width: 1320px;
@@ -393,7 +393,7 @@ body {
     display: inline-flex;
     margin-bottom: 0;
     padding-bottom: 0px;
-    background-image: url('resources/Rectangle\ 2.png');
+    background-image: url('resources/Rectangle 2.png');
     background-repeat: no-repeat;
     background-position: bottom center;
     background-size: 100%;
@@ -485,7 +485,7 @@ body {
 }
 
 .pro-img4-6 {
-    display: inline-flex;
+    display: inline-flexbox ;
     /* position: static; */
 }
 
