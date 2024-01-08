@@ -163,6 +163,9 @@ body {
     text-decoration: none;
     margin-top: 48px;
     margin-left: 32px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
 }
 
 .banner2-icon {
@@ -227,6 +230,7 @@ body {
     border-radius: 8px;
     background: #F00;
     border: 0;
+    cursor: pointer;
 }
 
 
