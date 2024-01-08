@@ -349,6 +349,100 @@ body {
 }
 
 
+/* seventh container section */
+.seventh-container {
+    margin-top: 120px;
+    margin-left: 140px;
+    width: 1320px;
+    height: 616px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+}
+
+.seventh-all {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.email {
+    margin-top: 80px;
+    margin-bottom: 40px;
+    width: 150px;
+    height: 150px;
+    flex-shrink: 0;
+}
+
+.htype {
+    margin-top: 0;
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.simple {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    width: 896px;
+    margin: 22px 212px 48px;
+}
+
+.subscribe-sec {
+    display: flex;
+    justify-content: center;
+}
+
+.type-mail {
+    width: 438px;
+    height: 72px;
+    flex-shrink: 0;
+    border-radius: 50px 0 0 50px;
+    background: #FFF;
+    padding-left: 30px;
+    border: 0;
+}
+
+.subscribe {
+    width: 210px;
+    height: 72px;
+    flex-shrink: 0;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    border: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.subscribe-sec>input::placeholder {
+    color: rgba(7, 2, 17, 0.30);
+    text-align: left;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 80px;
+}
+
+
+
 /* footer-text1 section */
 .footer-text1 {
     display: flex;
