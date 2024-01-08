@@ -328,28 +328,84 @@ body {
 }
 
 
-/* footer section  */
+/* sixth container section  */
 
-/* footer > p {
-    color: #FFF;
+.sixth-container {
+    margin-top: 120px;
+    margin-left: 140px;
+    margin-right: 140px;
+}
+
+/* .sc-all-text {} */
+
+.sc-text1 {
+    color: #F00;
     font-family: Inter;
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
-    line-height: 40px;
-} */
+    line-height: normal;
+    margin-bottom: 16px;
+}
 
-.footer-bg {
-    margin-top: 120px;
-    width: 1600px;
-    height: 609px;
-    flex-shrink: 0;
-    background: #070211;
+.sc-text2 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 0;
+    margin-bottom: 22px;
+}
+
+.sc-text3 {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    width: 896px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.product-img {
+    margin-top: 48px;
 
 }
 
+.prim1 {
+    margin-right: 24px;
+    margin-bottom: 24px;
+}
+
+.prim2 {
+    margin-right: 24px;
+    margin-bottom: 24px;
+}
+
+.prim3 {
+    margin-bottom: 24px;
+}
+
+.prim4 {
+    margin-right: 24px;
+    margin-bottom: 0;
+}
+
+.prim5 {
+    margin-right: 24px;
+}
+
+/* .prim6 {} */
+
+
 
 /* seventh container section */
+
 .seventh-container {
     margin-top: 120px;
     margin-left: 140px;
@@ -442,8 +498,28 @@ body {
 }
 
 
+/* footer section  */
+
+/* footer > p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+} */
+
+.footer-bg {
+    margin-top: 120px;
+    width: 1600px;
+    height: 609px;
+    flex-shrink: 0;
+    background: #070211;
+
+}
 
 /* footer-text1 section */
+
 .footer-text1 {
     display: flex;
     justify-content: space-between;
