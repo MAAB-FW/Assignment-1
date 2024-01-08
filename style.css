@@ -770,4 +770,7 @@ hr {
 
 .right {
     margin-right: 140px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
 }
