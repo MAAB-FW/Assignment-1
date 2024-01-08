@@ -333,7 +333,7 @@ body {
 
 /* fifth container section */
 
-.fifth-container {}
+/* .fifth-container {} */
 
 .fifth-text {
     margin-top: 120px;
@@ -414,7 +414,7 @@ body {
     fill: #F00;
     position: relative;
     margin-top: 60px;
-    
+
 }
 
 .picture3 {
@@ -423,10 +423,10 @@ body {
     flex-shrink: 0;
     border-radius: 16px 16px 0px 0px;
     background: url(<path-to-image>), lightgray -59.98px 0px / 151.553% 100% no-repeat;
-    
+
 }
 
-.red-bg{
+.red-bg {
     margin-top: 0;
     margin-left: 140px;
 }
@@ -478,6 +478,7 @@ body {
 
 .product-img {
     margin-top: 48px;
+
 }
 
 .pro-img1-3 {
@@ -485,35 +486,79 @@ body {
 }
 
 .pro-img4-6 {
-    display: inline-flexbox ;
+    display: inline-flexbox;
     /* position: static; */
 }
 
 .prim1 {
     margin-right: 24px;
     margin-bottom: 24px;
+    transition: 0.5s ease;
 }
 
 .prim2 {
     margin-right: 24px;
     margin-bottom: 24px;
+    transition: 0.5s ease;
 }
 
 .prim3 {
     margin-bottom: 24px;
+    transition: 0.5s ease;
 }
 
 .prim4 {
     margin-right: 24px;
     margin-bottom: 0;
+    transition: 0.5s ease;
 }
 
 .prim5 {
     margin-right: 24px;
+    transition: 0.5s ease;
 }
 
 .prim6 {
     margin-top: 0;
+    transition: 0.5s ease;
+
+}
+
+.prim1:hover {
+    -webkit-transform: scale(0.9);
+    transform: scale(1.2);
+    transition: 0.5s ease;
+}
+
+.prim2:hover {
+    -webkit-transform: scale(0.9);
+    transform: scale(1.2);
+    transition: 0.5s ease;
+}
+
+.prim3:hover {
+    -webkit-transform: scale(0.9);
+    transform: scale(1.2);
+    transition: 0.5s ease;
+}
+
+.prim4:hover {
+    -webkit-transform: scale(0.9);
+    transform: scale(1.2);
+    transition: 0.5s ease;
+}
+
+.prim5:hover {
+    -webkit-transform: scale(0.9);
+    transform: scale(1.2);
+    transition: 0.5s ease;
+}
+
+.prim6:hover {
+    -webkit-transform: scale(0.9);
+    transform: scale(1.2);
+    transition: 0.5s ease;
+
 }
 
 
