@@ -233,7 +233,8 @@ body {
     margin-top: 0px;
 }
 
-.fa-phone-volume, .fa-globe{
+.fa-phone-volume,
+.fa-globe {
     margin-right: 16px;
 }
 
@@ -278,9 +279,10 @@ hr {
     line-height: normal;
 }
 
-.left{
+.left {
     margin-left: 140px;
 }
-.right{
+
+.right {
     margin-right: 140px;
 }
