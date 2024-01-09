@@ -111,13 +111,14 @@ body {
 .second-container {
     display: flex;
     justify-content: left;
-    background-image: url('d-reso/Vector.png'), url('d-reso/Vector.png'), url('resources/Vectorrr.png');
+    background-image: url('d-reso/Vector.png'), url('d-reso/glowing-stage-light-illuminates-cheering-rock-fans-generated-by-ai.png');
     width: 1320px;
     height: 600px;
     flex-shrink: 0;
     margin-top: 120px;
     margin-left: 140px;
     margin-right: 140px;
+    border-radius: 20px;
 }
 
 .banner2-text {
@@ -179,7 +180,7 @@ body {
     background-repeat: no-repeat;
     margin-top: 120px;
     margin-bottom: 120px;
-    margin-left: 126px;
+    margin-left: 140px;
     width: 1320px;
     height: 482px;
     flex-shrink: 0;
